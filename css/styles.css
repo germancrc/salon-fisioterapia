@@ -37,8 +37,21 @@ body,html{
     color: white;
 }
 
+.naveg-drop a:hover{
+  color: black;
+  font-weight: bold;
+}
+
 .naveg-drop:hover{
     color: white
+}
+
+nav.abajo{
+  background: #212529;
+  box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.50);
+-webkit-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.50);
+-moz-box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.50);
+  transition: 0.1s ease-in-out;
 }
 
 /*-----------------------------------HERO IMAGE*/
@@ -46,19 +59,27 @@ body,html{
 
 
 .mainSecTop{
-  background-color: #212529;
-  height: 28rem;
+  /* background-color: #212529; */
+  height: 34rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/estilista22.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
 }
 
 .styler{
   position:absolute;
   height: 90vh;
   right:0;
+  display: none;
 }
 
 .main{
   position: absolute;
-  margin-top: 3rem;
+  margin-top: 6rem;
   left: 6rem;
   align-content: center;
 }
@@ -66,7 +87,7 @@ body,html{
 .main-text{
   font-size: 5rem;
   color: white;
-  padding-bottom: -5rem;
+  /* padding-bottom: -5rem; */
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -88,6 +109,7 @@ body,html{
   .servicios{
     background-color: #f2fafa;
     text-align: center;
+    margin-top: -3.5em;
     padding-top: 1.5rem;
     transform: skewY(5deg);
     margin-bottom: 2rem;
@@ -176,13 +198,13 @@ body,html{
     }
 
     .main{
-      margin-top: 1rem;
-      position: static;
-      text-align: center;
+      left: 3.3rem;
+      text-align: center; 
+      margin-top: 5rem;
     }
 
     .main-text{
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     
     .main-subtext{
@@ -190,7 +212,7 @@ body,html{
     }
 
     .mainSecTop{
-      height: 5rem;
+      height: 20rem;
     }
 
     .serv-info{
