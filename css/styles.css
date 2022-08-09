@@ -53,20 +53,14 @@ nav.abajo{
 
 
 
-.mainSecTop{
-  /* background-color: #212529; */
-  height: 27rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/estilista22.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .main{
-  position: absolute;
-  margin-top: 6rem;
-  left: 6rem;
-  align-content: center;
+  padding: 6rem;
+  align-items: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/modelo3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .main-text{
@@ -74,11 +68,13 @@ nav.abajo{
   color: white;
   /* padding-bottom: -5rem; */
   font-family: 'Kaushan Script', cursive;
+  text-align: center;
 }
 
 .main-subtext{
   font-size: 3rem;
   color: white;
+  text-align: center;
 }
 
 .serv-text{
@@ -100,11 +96,11 @@ nav.abajo{
   }
 
   .colService{
-    width: 70%;
+    width: 65%;
   }
 
   .colStyler{
-    width: 30%;
+    width: 15%;
   }
 
   .contacto{
