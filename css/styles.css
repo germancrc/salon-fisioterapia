@@ -18,7 +18,10 @@ body,html{
 }
 
 .menu:hover{
-    color: #DFEDE9;
+    color: #D2D39B;
+    transform: scale(1.1) ;
+-webkit-transform: scale(1.1) ;
+-moz-transform: scale(1.1) ;
 }
 
 .naveg-drop{
