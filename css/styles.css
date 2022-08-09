@@ -10,15 +10,7 @@ body,html{
 
 /*-----------------------------------NAVEGACION*/
 .logo{
-    width: 8rem;
-}
-
-.navegacion{
-    background-color: #333333;
-}
-
-.boton{
-    color: white;
+    width: 10rem;
 }
 
 .menu{
@@ -27,6 +19,9 @@ body,html{
 
 .menu:hover{
     color: aqua;
+    transform: scale(1.1) ;
+-webkit-transform: scale(1.1) ;
+-moz-transform: scale(1.1) ;
 }
 
 .naveg-drop{
@@ -60,21 +55,11 @@ nav.abajo{
 
 .mainSecTop{
   /* background-color: #212529; */
-  height: 34rem;
+  height: 27rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/estilista22.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-
-
-}
-
-.styler{
-  position:absolute;
-  height: 90vh;
-  right:0;
-  display: none;
 }
 
 .main{
@@ -97,7 +82,7 @@ nav.abajo{
 }
 
 .serv-text{
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
   opacity: 0.45;
@@ -106,85 +91,78 @@ nav.abajo{
 
   /*-----------------------------------SERVICIOS*/
 
+
   .servicios{
     background-color: #f2fafa;
     text-align: center;
-    margin-top: -3.5em;
-    padding-top: 1.5rem;
-    transform: skewY(5deg);
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
   }
 
-  .serv-card-text{
-    margin-top: 1rem;
+  .colService{
+    width: 70%;
+  }
+
+  .colStyler{
+    width: 30%;
+  }
+
+  .contacto{
+    background-color: #212529;
+    color: white;
     text-align: center;
-    font-size: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
   }
 
-  .serv-info{
-    font-size: 1rem;
+  .img-serv{
+    height: 90vh;
+    margin-left: auto;
+    display: block;
+    position: sticky;
   }
 
-  .serv-cont{
-    transform: skewY(-5deg);
-  }
-
-  .serv1{
-    margin-top: 1.5rem;
-  }
-
-  .serv2, .serv3, .serv4{
-    margin-top: 2.2rem;
+  .mapa{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    height: auto;
   }
 
   .foot{
     background-color: #212529;
   }
 
-  .logo-foot{
-    width: 80%;
-    margin-top: 35%;
-    margin-left: 9%;
-    display: block;
+  .social{
+    margin-top: -2rem;
   }
 
+  .fa-instagram:hover{
+    color: #833AB4;
+    transform: scale(1.1) ;
+-webkit-transform: scale(1.1) ;
+-moz-transform: scale(1.1) ;
+}
 
-  .card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
+.fa-whatsapp:hover{
+  color: #25D366;
+  transform: scale(1.1) ;
+-webkit-transform: scale(1.1) ;
+-moz-transform: scale(1.1) ;
+}
+
+.fa-telegram:hover{
+  color: #0088CC;
+  transform: scale(1.1) ;
+-webkit-transform: scale(1.1) ;
+-moz-transform: scale(1.1) ;
+}
+
   /* Add some padding inside the card container */
   .container {
     padding: 2px 16px;
   }
-
-
-#banner {
-    position: relative;
-    height: 500px;
-    width:100%;
-    overflow: hidden;
-}
-#videobcg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    height: auto;
-    width:auto;
-    z-index: -100;
-}
 
 /*PANTALLAS PEQ*/
 @media (max-width: 575.98px) {
@@ -193,20 +171,24 @@ nav.abajo{
       letter-spacing: 0.5rem;
     }
 
-    .styler{
+    .img-serv{
       display: none;
+    }
+
+    .colService{
+      width: 100%;
     }
 
     .main{
       left: 3.3rem;
-      text-align: center; 
+      text-align: center;
       margin-top: 5rem;
     }
 
     .main-text{
       font-size: 2.5rem;
     }
-    
+
     .main-subtext{
       font-size: 1.2rem;
     }
@@ -218,10 +200,21 @@ nav.abajo{
     .serv-info{
       display: none;
     }
-  
+
     .serv1, .serv2, .serv3, .serv4{
       margin-top: 1rem;
     }
+
+    .logo{
+      width: 8rem;
+  }
+  .menu:hover{
+  transform: scale(1) ;
+  -webkit-transform: scale(1) ;
+  -moz-transform: scale(1) ;
+}
+
+
   }
 
 

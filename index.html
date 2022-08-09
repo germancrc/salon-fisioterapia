@@ -18,33 +18,25 @@
     <title>Salón Morales</title>
 </head>
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-5-strong">
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="/img/logoSalon.png" alt="logo" class="d-inline-block align-text-top logo">
             </a>
-            <button class="navbar-toggler boton" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" id="collapser" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                       <a class="nav-link menu" aria-current="page" href="#">Inicio</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Servicios
-                        </a>
-                        <ul class="dropdown-menu naveg-drop" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Estilista</a></li>
-                          <li><a class="dropdown-item" href="#">Masajes</a></li>
-                          <li><a class="dropdown-item" href="#">Fisioterapia</a></li>
-                          <li><a class="dropdown-item" href="#">Perfumes | prendas</a></li>
-                        </ul>
-                      </li>
                     <li class="nav-item">
-                      <a class="nav-link menu" href="#">Contacto</a>
+                      <a class="nav-link menu" href="#servic">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link menu" href="#contac">Contacto</a>
                     </li>
                   </ul>
           </div>
@@ -52,7 +44,7 @@
         </div>
       </nav>
 
-<!-- The video 
+<!-- The video
   <section id="banner">
       <video id="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
           <source src="/video/masaje.mp4" type="video/mp4">
@@ -63,88 +55,260 @@
     <div class="main">
     <p class="main-text">Salón Morales</p>
     <hr class="text-light">
-    <p class="main-subtext">Estilista - Masajes - Fisioterapia</p>
+    <p class="main-subtext">Estilista y más!</p>
     </div>
     <div class="mainSecTop">
-      <img class="styler" src="/img/estilista.png" alt="">
+      <!-- <img class="styler" src="/img/estilista.png" alt=""> -->
     </div>
   </section>
-  
 
-  <section class="servicios">
+
+  <section class="servicios" id="servic">
       <div class="container serv-cont">
-        <h2 class="fw-bold serv-text mt-3">Servicios</h2>
-              <hr class="text-dark">
-          <div class="container tabla mb-4">
-              <div class="row">
+        <h2 class="fw-bold serv-text">Servicios</h2>
+        <hr class="text-dark">
 
-                <div class="col-lg-6 col-sm-12 serv1">
-                  <p class="serv-card-text">Estilista</p>
-                  <p class="serv-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsa?</p>
-                </div>
-                <div class="col-lg-6 col-sm-12 serv1">
-                  <div class="card">
-                      <img src="./img/estilista22.png" alt="Avatar" style="width:100%">
+        <div class="row row-cols-1 row-cols-md-2 text-center">
+          <div class="colService col">
+        <!-- ACORDEON -->
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <!-- SERVICIO 1 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Lavado
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <!-- CUERPO -->
+                  <div class="accordion-body">
+                    <div class="row row-cols-1 row-cols-md-3 text-center">
+                      <div class="col">
+                        <div class="card rounded-3 shadow-sm">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Lavado</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                  </div>
+                  <!-- CUERPO -->
                 </div>
-                
-                <div class="col-lg-6 col-sm-12 serv2">
-                  <p class="serv-card-text">Masajes</p>
-                  <p class="serv-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum dolor nostrum.</p>
-                </div> 
-                <div class="col-lg-6 col-sm-12 serv2">
-                  <div class="card">
-                      <img src="./img/masaje.png" alt="Avatar" style="width:100%">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-sm-12 serv3">
-                  <p class="serv-card-text">Fisioterapia</p>
-                  <p class="serv-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, odit.</p>
-                </div>
-                <div class="col-lg-6 col-sm-12 serv3">
-                  <div class="card">
-                      <img src="./img/terapia-fisica.jpg" alt="Avatar" style="width:100%">
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-sm-12 serv4">
-                  <p class="serv-card-text">Perfumes y prendas</p>
-                  <p class="serv-info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, ipsa?</p>
-                </div>
-                <div class="col-lg-6 col-sm-12 serv4">
-                  <div class="card">
-                      <img src="./img/perfumes.png" alt="Avatar" style="width:100%">
-                    </div>
-                </div>
-
-
               </div>
+              <!-- SERVICIO 1 -->
+
+              <!-- SERVICIO 2 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Planchado
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <!-- CUERPO -->
+                  <div class="accordion-body">
+                    <div class="row row-cols-1 row-cols-md-3 text-center">
+                      <div class="col">
+                        <div class="card rounded-3 shadow-sm">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Planchado</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- CUERPO -->
+                </div>
+              </div>
+              <!-- SERVICIO 2 -->
+
+              <!-- SERVICIO 3 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Tintes
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <!-- CUERPO -->
+                  <div class="accordion-body">
+                    <div class="row row-cols-1 row-cols-md-3 text-center">
+                      <div class="col">
+                        <div class="card rounded-3 shadow-sm">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Tintes</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- CUERPO -->
+                </div>
+              </div>
+              <!-- SERVICIO 3 -->
+
+              <!-- SERVICIO 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Alisado
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                  <!-- CUERPO -->
+                  <div class="accordion-body">
+                    <div class="row row-cols-1 row-cols-md-3 text-center">
+                      <div class="col">
+                        <div class="card rounded-3 shadow-sm">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Alisado</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- CUERPO -->
+                </div>
+              </div>
+              <!-- SERVICIO 4 -->
+
+              <!-- SERVICIO 5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Decoloración
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                  <!-- CUERPO -->
+                  <div class="accordion-body">
+                    <div class="row row-cols-1 row-cols-md-3 text-center">
+                      <div class="col">
+                        <div class="card rounded-3 shadow-sm">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Decoloración</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- CUERPO -->
+                </div>
+              </div>
+              <!-- SERVICIO 5 -->
+
+              <!-- SERVICIO N -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingUltimo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseUltimo" aria-expanded="false" aria-controls="flush-collapseUltimo">
+                    Depilación
+                  </button>
+                </h2>
+                <div id="flush-collapseUltimo" class="accordion-collapse collapse" aria-labelledby="flush-headingUltimo" data-bs-parent="#accordionFlushExample">
+                  <!-- CUERPO -->
+                  <div class="accordion-body">
+                    <div class="row row-cols-1 row-cols-md-3 text-center">
+                      <div class="col">
+                        <div class="card rounded-3 shadow-sm mb-3">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Cejas</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card rounded-3 shadow-sm mb-3">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Axilas</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card rounded-3 shadow-sm mb-3">
+                          <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">Espalda</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- CUERPO -->
+                </div>
+              </div>
+              <!-- SERVICIO N -->
+
             </div>
-      </div>
+        <!-- FIN ACORDEON -->
+          </div>
+
+          <div class="colStyler col">
+            <img src="/img/estilista.png" class="img-serv" alt="serv-img">
+          </div>
+
+
+
+    </div>
+  </div>
+  </section>
+
+  <section class="contacto" id="contac">
+    <div class="container serv-cont">
+      <h2 class="fw-bold serv-text">contacto</h2>
+      <hr class="text-light">
+    </div>
   </section>
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-dark text-light text-muted pb-3">
+<footer class="text-center text-lg-start bg-dark text-light text-muted">
   <!-- Section: Links  -->
-
+  <div class="container social">
       <ul class="nav justify-content-center pb-1 mb-1 ">
         <li class="ms-3">      <a href="#" class="me-3">
-          <i class="fa-brands fa-instagram fa-xl fa-inverse"></i>
+          <i class="fa-brands fa-instagram fa-2xl fa-inverse"></i>
         </a></a></li>
         <li class="ms-3">      <a href="#" class="me-3">
-          <i class="fa-brands fa-whatsapp fa-xl fa-inverse"></i>
+          <i class="fa-brands fa-whatsapp fa-2xl fa-inverse"></i>
         </a></li>
+        <!-- <li class="ms-3">      <a href="#" class="me-3">
+          <i class="fa-brands fa-facebook fa-2xl fa-inverse"></i>
+        </a></li> -->
         <li class="ms-3">      <a href="#" class="me-3">
-          <i class="fa-brands fa-facebook fa-xl fa-inverse"></i>
-        </a></li>
-        <li class="ms-3">      <a href="#" class="me-3">
-          <i class="fa-brands fa-telegram fa-xl fa-inverse"></i>
+          <i class="fa-brands fa-telegram fa-2xl fa-inverse"></i>
         </a></li>
       </ul>
-      <div class="container">
+
       <hr class="text-light">
     </div>
+
+      <div class="container">
+  <div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1591.0744510918469!2d-69.28418710922897!3d18.47305168051485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sdo!4v1660008285967!5m2!1ses!2sdo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  </div>
+
         <div class="text-center text-light">
           © 2022
           <a class="text-light" href="#">GermanCRC</a>
