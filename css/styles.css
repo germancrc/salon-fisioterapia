@@ -18,10 +18,7 @@ body,html{
 }
 
 .menu:hover{
-    color: aqua;
-    transform: scale(1.1) ;
--webkit-transform: scale(1.1) ;
--moz-transform: scale(1.1) ;
+    color: #DFEDE9;
 }
 
 .naveg-drop{
@@ -51,12 +48,8 @@ nav.abajo{
 
 /*-----------------------------------HERO IMAGE*/
 
-
-
-
 .main{
-  padding: 6rem;
-  align-items: center;
+  padding: 11rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/modelo3.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -82,25 +75,33 @@ nav.abajo{
   font-weight: bold;
   text-transform: uppercase;
   opacity: 0.45;
-  letter-spacing: 2rem;
+  letter-spacing: 0.5rem;
 }
 
   /*-----------------------------------SERVICIOS*/
 
 
   .servicios{
-    background-color: white;
+    background-color: #DFEDE9;
     text-align: center;
     padding-bottom: 2rem;
     padding-top: 1rem;
   }
 
   .colService{
-    width: 65%;
+    /* width: 65%; */
   }
 
-  .colStyler{
+  /* .colStyler{
     width: 15%;
+  } */
+
+  .card-header{
+    background-color: #333333;
+  }
+
+  .fw-normal{
+    color: white;
   }
 
   .contacto{
@@ -119,11 +120,11 @@ nav.abajo{
   }
 
   .mapa{
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 2rem;
-    max-width: 100%;
-    height: auto;
+    width: 35%;
+
   }
 
   .foot{
@@ -176,9 +177,7 @@ nav.abajo{
     }
 
     .main{
-      left: 3.3rem;
-      text-align: center;
-      margin-top: 5rem;
+      padding: 5rem;
     }
 
     .main-text{

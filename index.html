@@ -19,7 +19,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+    <nav class="navbar navbar-expand-lg menu fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="/img/logoSalon.png" alt="logo" class="d-inline-block align-text-top logo">
@@ -28,7 +28,7 @@
                 <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                       <a class="nav-link menu" aria-current="page" href="#">Inicio</a>
                     </li>
@@ -55,7 +55,7 @@
     <div class="main">
     <p class="main-text">Salón Morales</p>
     <hr class="text-light">
-    <p class="main-subtext">Estilista y más!</p>
+    <p class="main-subtext">Tu belleza en las mejores manos</p>
     </div>
   </section>
 
@@ -66,7 +66,7 @@
         <hr class="text-dark">
 
         <div class="row row-cols-1 row-cols-md-2 text-center">
-          <div class="colService col">
+          <div class="colService col-12">
         <!-- ACORDEON -->
             <div class="accordion accordion-flush" id="accordionFlushExample">
               <!-- SERVICIO 1 -->
@@ -86,7 +86,7 @@
                             <h4 class="my-0 fw-normal">Lavado</h4>
                           </div>
                           <div class="card-body">
-                            <h4 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 1,000.00</small></h4>
+                            <h4 class="card-title pricing-card-title"><strong>RD$</strong> 1,000.00</h4>
                           </div>
                         </div>
                       </div>
@@ -114,7 +114,7 @@
                             <h4 class="my-0 fw-normal">Planchado</h4>
                           </div>
                           <div class="card-body">
-                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                            <h4 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h4>
                           </div>
                         </div>
                       </div>
@@ -142,7 +142,7 @@
                             <h4 class="my-0 fw-normal">Tintes</h4>
                           </div>
                           <div class="card-body">
-                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                            <h4 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h4>
                           </div>
                         </div>
                       </div>
@@ -170,7 +170,7 @@
                             <h4 class="my-0 fw-normal">Alisado</h4>
                           </div>
                           <div class="card-body">
-                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                            <h4 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h4>
                           </div>
                         </div>
                       </div>
@@ -198,7 +198,7 @@
                             <h4 class="my-0 fw-normal">Decoloración</h4>
                           </div>
                           <div class="card-body">
-                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                            <h4 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h4>
                           </div>
                         </div>
                       </div>
@@ -226,7 +226,7 @@
                             <h4 class="my-0 fw-normal">Cejas</h4>
                           </div>
                           <div class="card-body">
-                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                            <h4 class="card-title pricing-card-title"><strong>RD$</strong> 1,000.00</h4>
                           </div>
                         </div>
                       </div>
@@ -236,7 +236,7 @@
                             <h4 class="my-0 fw-normal">Axilas</h4>
                           </div>
                           <div class="card-body">
-                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                            <h4 class="card-title pricing-card-title"><strong>RD$</strong> 1,000.00</h4>
                           </div>
                         </div>
                       </div>
@@ -246,7 +246,7 @@
                             <h4 class="my-0 fw-normal">Espalda</h4>
                           </div>
                           <div class="card-body">
-                            <h1 class="card-title pricing-card-title">RD$<small class="text-muted fw-light"> 0.00</small></h1>
+                            <h4 class="card-title pricing-card-title"><strong>RD$</strong> 1,000.00</h4>
                           </div>
                         </div>
                       </div>
@@ -260,10 +260,10 @@
             </div>
         <!-- FIN ACORDEON -->
           </div>
-
+<!-- 
           <div class="colStyler col">
             <img src="/img/estilista.png" class="img-serv" alt="serv-img">
-          </div>
+          </div> -->
 
 
 
@@ -279,7 +279,7 @@
   </section>
 
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-dark text-light text-muted">
+<footer class="text-center text-lg-start bg-dark text-light text-muted pb-4">
   <!-- Section: Links  -->
   <div class="container social">
       <ul class="nav justify-content-center pb-1 mb-1 ">
@@ -300,11 +300,6 @@
       <hr class="text-light">
     </div>
 
-      <div class="container">
-  <div class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1591.0744510918469!2d-69.28418710922897!3d18.47305168051485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sdo!4v1660008285967!5m2!1ses!2sdo" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
-  </div>
 
         <div class="text-center text-light">
           © 2022
