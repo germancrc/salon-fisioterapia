@@ -115,6 +115,15 @@ nav.abajo{
     padding-top: 1rem;
   }
 
+  .whatsapp{
+    text-decoration: none;
+    color: white;
+  }
+
+  .whatsapp:hover{
+    color: #25D366;
+  }
+
   .img-serv{
     height: 90vh;
     margin-left: auto;
