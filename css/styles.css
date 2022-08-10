@@ -91,6 +91,10 @@ nav.abajo{
     padding-top: 1rem;
   }
 
+  .pestana{
+    position: sticky;
+  }
+
   /* .colService{
     
   } */
