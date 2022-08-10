@@ -92,7 +92,7 @@ nav.abajo{
   }
 
   .pestana{
-    position: sticky;
+    position: static;
   }
 
   /* .colService{
