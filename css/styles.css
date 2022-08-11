@@ -90,7 +90,7 @@ nav.abajo{
   color: #08090a;
 }
 
-.serv-text, .local-text{
+.serv-text{
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -163,10 +163,6 @@ nav.abajo{
     padding-top: 1rem;
   }
 
-  .local-cont{
-    text-align: center;
-  }
-
   .address{
     margin-top: 8rem;
   }
@@ -225,13 +221,6 @@ nav.abajo{
       margin-top: -8rem;
     }
 
-    .img-serv{
-      display: none;
-    }
-
-    .colService{
-      width: 100%;
-    }
 
     .main{
       padding: 5rem;
@@ -244,19 +233,7 @@ nav.abajo{
     .main-subtext{
       font-size: 1.2rem;
     }
-
-    .mainSecTop{
-      height: 20rem;
-    }
-
-    .serv-info{
-      display: none;
-    }
-
-    .serv1, .serv2, .serv3, .serv4{
-      margin-top: 1rem;
-    }
-
+    
     .logo{
       width: 8rem;
     }
