@@ -65,7 +65,6 @@ nav.abajo{
 
 .text-main{
   margin-top: 12rem;
-  margin-left: -25rem;
 }
 
 .main-text{
@@ -77,6 +76,7 @@ nav.abajo{
 .main-subtext{
   font-size: 4rem;
   color: white;
+  text-align: center;
 }
 
 
@@ -84,14 +84,13 @@ nav.abajo{
 
 
 .servicios{
-  /* background-color: #f2f0ef; */
   text-align: center;
   padding-top: 1rem;
   margin-top: -4rem;
   color: #08090a;
 }
 
-.serv-text{
+.serv-text, .local-text{
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -118,22 +117,14 @@ nav.abajo{
     font-size: 1.2rem;
   }
 
-  /* .colService{
-    
+  /* .accordion{
+    box-shadow: 0px 5px 5px 0px rgba(255,255,255,0.51);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(255,255,255,0.51);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(255,255,255,0.51);
   } */
 
-  .colStyler{
-
-  }
-
-  .accordion{
-    box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.44);
-    -webkit-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.44);
-    -moz-box-shadow: 0px 10px 5px -5px rgba(0,0,0,0.44);
-  }
-
   .card-header{
-    background-color: #333333;
+    background-color: #08090a;
   }
 
   .fw-normal{
@@ -163,20 +154,38 @@ nav.abajo{
     position: sticky;
   }
 
-  .mapa{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
+/* ---------------------location------------------------------ */
 
+  .location{
+    color: white;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+  }
+
+  .local-cont{
+    text-align: center;
+  }
+
+  .address{
+    margin-top: 8rem;
+  }
+
+  .logo-local{
+    width: 80%;
+    padding-bottom: 2rem;
+  }
+  
+  iframe{
+    margin: 2rem;
   }
 
   .foot{
-    background-color: #212529;
+    background-color: #08090a;
   }
 
   .social{
-    margin-top: -2rem;
+    margin-top: -1rem;
   }
 
   .fa-instagram:hover{
@@ -210,6 +219,10 @@ nav.abajo{
     .serv-text{
       font-size: 2rem;
       letter-spacing: 0.5rem;
+    }
+
+    .servicios{
+      margin-top: -8rem;
     }
 
     .img-serv{
@@ -246,7 +259,34 @@ nav.abajo{
 
     .logo{
       width: 8rem;
-  }
+    }
+
+    .address{
+      margin-top: 0.5rem;
+    }
+
+    .img-modelo{
+      height: 50vh;
+      margin-top: -5rem;
+    }
+
+    .text-main{
+      margin-top: -12rem;
+    }
+    
+    .main-text{
+      font-size: 3rem;
+      color: white;
+      font-family: 'Kaushan Script';
+    }
+    
+    .main-subtext{
+      font-size: 1.2rem;
+      color: white;
+      margin-top: -1rem;
+      font-weight: bold;
+    }
+
   .menu:hover{
   transform: scale(1) ;
   -webkit-transform: scale(1) ;
