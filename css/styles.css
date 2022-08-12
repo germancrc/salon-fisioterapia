@@ -55,13 +55,13 @@ nav.abajo{
 
 /*-----------------------------------HERO IMAGE*/
 
-.main{
-  /*padding: 12rem;
+/* .main{
+  padding: 12rem;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/modelo3.png");
   background-position: left; 
   background-repeat: no-repeat;
-  background-size: contain; */
-}
+  background-size: contain; 
+} */
 
 .modelo{
   margin-top: 2rem;
@@ -219,8 +219,10 @@ nav.abajo{
     padding: 2px 16px;
   }
 
-/*PANTALLAS PEQ*/
-@media (max-width: 575.98px) {
+/*------------------------------------------------------MEDIA QUERIES----------------------------------*/ 
+
+/*------------------------------------------------------PANTALLAS 576----------------------------------*/
+@media (max-width: 576px) {
     .serv-text{
       font-size: 2rem;
       letter-spacing: 0.5rem;
@@ -282,6 +284,263 @@ nav.abajo{
 
 
   }
+
+
+/*------------------------------------------------------PANTALLAS 768----------------------------------*/
+@media (max-width: 768px) {
+  .serv-text{
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .servicios{
+    margin-top: -8rem;
+  }
+
+
+  .main{
+    padding: 5rem;
+  }
+
+  .main-text{
+    font-size: 2.5rem;
+  }
+
+  .main-subtext{
+    font-size: 1.2rem;
+  }
+  
+  .logo{
+    width: 8rem;
+  }
+
+  .address{
+    margin-top: 0.5rem;
+  }
+
+  .img-modelo{
+    height: 50vh;
+    margin-top: -5rem;
+  }
+
+  .text-main{
+    margin-top: -12rem;
+    margin-left: 0;
+  }
+  
+  .main-text{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Kaushan Script';
+  }
+  
+  .main-subtext{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: -1rem;
+    font-weight: bold;
+  }
+
+.menu:hover{
+transform: scale(1) ;
+-webkit-transform: scale(1) ;
+-moz-transform: scale(1) ;
+}
+
+
+}
+
+/*------------------------------------------------------PANTALLAS 992----------------------------------*/
+@media (max-width: 992px) {
+  .serv-text{
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .servicios{
+    margin-top: -8rem;
+  }
+
+
+  .main{
+    padding: 5rem;
+  }
+
+  .main-text{
+    font-size: 2.5rem;
+  }
+
+  .main-subtext{
+    font-size: 1.2rem;
+  }
+  
+  .logo{
+    width: 8rem;
+  }
+
+  .address{
+    margin-top: 0.5rem;
+  }
+
+  .img-modelo{
+    height: 50vh;
+    margin-top: -5rem;
+  }
+
+  .text-main{
+    margin-top: -12rem;
+    margin-left: 0;
+  }
+  
+  .main-text{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Kaushan Script';
+  }
+  
+  .main-subtext{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: -1rem;
+    font-weight: bold;
+  }
+
+.menu:hover{
+transform: scale(1) ;
+-webkit-transform: scale(1) ;
+-moz-transform: scale(1) ;
+}
+
+
+}
+
+/*------------------------------------------------------PANTALLAS 1200----------------------------------*/
+@media (max-width: 1200px) {
+  .serv-text{
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .servicios{
+    margin-top: -8rem;
+  }
+
+
+  .main{
+    padding: 5rem;
+  }
+
+  .main-text{
+    font-size: 2.5rem;
+  }
+
+  .main-subtext{
+    font-size: 1.2rem;
+  }
+  
+  .logo{
+    width: 8rem;
+  }
+
+  .address{
+    margin-top: 0.5rem;
+  }
+
+  .img-modelo{
+    height: 50vh;
+    margin-top: -5rem;
+  }
+
+  .text-main{
+    margin-top: -12rem;
+    margin-left: 0;
+  }
+  
+  .main-text{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Kaushan Script';
+  }
+  
+  .main-subtext{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: -1rem;
+    font-weight: bold;
+  }
+
+.menu:hover{
+transform: scale(1) ;
+-webkit-transform: scale(1) ;
+-moz-transform: scale(1) ;
+}
+
+
+}
+
+/*------------------------------------------------------PANTALLAS 1400----------------------------------*/
+@media (max-width: 1400px) {
+  .serv-text{
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+
+  .servicios{
+    margin-top: -8rem;
+  }
+
+
+  .main{
+    padding: 5rem;
+  }
+
+  .main-text{
+    font-size: 2.5rem;
+  }
+
+  .main-subtext{
+    font-size: 1.2rem;
+  }
+  
+  .logo{
+    width: 8rem;
+  }
+
+  .address{
+    margin-top: 0.5rem;
+  }
+
+  .img-modelo{
+    height: 50vh;
+    margin-top: -5rem;
+  }
+
+  .text-main{
+    margin-top: -12rem;
+    margin-left: 0;
+  }
+  
+  .main-text{
+    font-size: 3rem;
+    color: white;
+    font-family: 'Kaushan Script';
+  }
+  
+  .main-subtext{
+    font-size: 1.2rem;
+    color: white;
+    margin-top: -1rem;
+    font-weight: bold;
+  }
+
+.menu:hover{
+transform: scale(1) ;
+-webkit-transform: scale(1) ;
+-moz-transform: scale(1) ;
+}
+
+
+}
 
 
 
