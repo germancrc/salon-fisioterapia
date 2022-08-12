@@ -345,7 +345,7 @@ nav.abajo{
   /*-----PANTALLAS HASTA 992----------------------------------*/
   @media (min-width: 769px) and (max-width: 992px){
     .img-modelo{
-      height: 50vh;
+      height: 90vh;
     }
   
     .modelo{
@@ -368,7 +368,7 @@ nav.abajo{
     
     .main-subtext{
       font-size: 1.58rem;
-      margin-top: -7rem;
+      margin-top: -6rem;
     }
   
     .address{
