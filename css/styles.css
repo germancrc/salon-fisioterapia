@@ -311,7 +311,7 @@ nav.abajo{
   /*-----PANTALLAS HASTA 768----------------------------------*/
 @media (min-width: 571px) and (max-width: 768px){
   .img-modelo{
-    height: 50vh;
+    height: 75vh;
   }
 
   .modelo{
