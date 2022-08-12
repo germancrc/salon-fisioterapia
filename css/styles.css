@@ -14,7 +14,7 @@ p{
 
 /*-----------------------------------NAVEGACION*/
 .logo{
-    width: 10rem;
+    width: 11rem;
 }
 
 .menu{
@@ -53,35 +53,33 @@ nav.abajo{
   transition: 0.1s ease-in-out;
 }
 
-/*-----------------------------------HERO IMAGE*/
-
-/* .main{
-  padding: 12rem;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/modelo3.png");
-  background-position: left; 
-  background-repeat: no-repeat;
-  background-size: contain; 
-} */
+/*-----------------------------------MAIN IMAGE*/
 
 .modelo{
   margin-top: 2rem;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
 }
 
-.text-main{
+.text-cont{
   margin-top: 12rem;
-  margin-left: -6rem;
+  /* background-color: #833AB4; */
+  display: flex;
+  text-align: left;
+  justify-content: left;
 }
 
 .main-text{
   font-size: 7rem;
   color: white;
-  text-align: center;
 }
 
 .main-subtext{
-  font-size: 4rem;
+  font-size: 3.1rem;
   color: white;
-  text-align: center;
+  margin-top: -12rem;
 }
 
 
@@ -122,12 +120,6 @@ nav.abajo{
   .price{
     font-size: 1.2rem;
   }
-
-  /* .accordion{
-    box-shadow: 0px 5px 5px 0px rgba(255,255,255,0.51);
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(255,255,255,0.51);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(255,255,255,0.51);
-  } */
 
   .card-header{
     background-color: #08090a;
@@ -185,6 +177,8 @@ nav.abajo{
     margin: 2rem;
   }
 
+  /* ---------------------FOOTER / SOCIAL------------------------------ */
+
   .foot{
     background-color: #08090a;
   }
@@ -214,15 +208,47 @@ nav.abajo{
 -moz-transform: scale(1.1) ;
 }
 
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
 
 /*------------------------------------------------------MEDIA QUERIES----------------------------------*/ 
 
-/*------------------------------------------------------PANTALLAS 576----------------------------------*/
-@media (max-width: 576px) {
+/*-----PANTALLAS HASTA 506----------------------------------*/
+@media (max-width: 506px) {
+  .img-modelo{
+    height: 50vh;
+  }
+
+  .modelo{
+    margin-top: 1rem;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-cont{
+    /* background-color: #833AB4; */
+    text-align: center;
+    justify-content: center;
+    margin-top: -14rem;
+  }
+  
+  .main-text{
+    font-size: 3.5rem;
+  }
+  
+  .main-subtext{
+    font-size: 2.2rem;
+    margin-top: -6rem;
+  }
+
+  .address{
+    margin-top: -0.5rem;
+  }
+}
+
+
+
+
+@media (min-width: 507px) and (max-width: 570px) {
     .serv-text{
       font-size: 2rem;
       letter-spacing: 0.5rem;
@@ -232,21 +258,12 @@ nav.abajo{
       margin-top: -8rem;
     }
 
-
     .main{
       padding: 5rem;
     }
-
-    .main-text{
-      font-size: 2.5rem;
-    }
-
-    .main-subtext{
-      font-size: 1.2rem;
-    }
     
     .logo{
-      width: 12rem;
+      width: 9rem;
     }
 
     .address{
@@ -258,23 +275,29 @@ nav.abajo{
       margin-top: -5rem;
     }
 
-    .text-main{
-      margin-top: -12rem;
-      margin-left: 0;
+    .modelo{
+      margin-top: 2rem;
+      /* background-color: aqua; */
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .text-cont{
+      /* background-color: #833AB4; */
+      text-align: center;
+      justify-content: center;
+      margin-top: -15rem;
     }
     
     .main-text{
-      font-size: 3rem;
-      color: white;
-      font-family: 'Kaushan Script';
+      font-size: 4.2rem;
     }
     
     .main-subtext{
-      font-size: 1.2rem;
-      color: white;
-      margin-top: -1rem;
-      font-weight: bold;
+      font-size: 2rem;
+      margin-top: -6rem;
     }
+    
 
   .menu:hover{
   transform: scale(1) ;
@@ -285,262 +308,142 @@ nav.abajo{
 
   }
 
-
-/*------------------------------------------------------PANTALLAS 768----------------------------------*/
-@media (max-width: 768px) {
-  .serv-text{
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
+  /*-----PANTALLAS HASTA 768----------------------------------*/
+@media (min-width: 571px) and (max-width: 768px){
+  .img-modelo{
+    height: 50vh;
   }
 
-  .servicios{
-    margin-top: -8rem;
+  .modelo{
+    margin-top: 1rem;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
   }
 
-
-  .main{
-    padding: 5rem;
-  }
-
-  .main-text{
-    font-size: 2.5rem;
-  }
-
-  .main-subtext{
-    font-size: 1.2rem;
+  .text-cont{
+    /* background-color: #833AB4; */
+    text-align: center;
+    justify-content: center;
+    margin-top: -14rem;
   }
   
-  .logo{
-    width: 8rem;
+  .main-text{
+    font-size: 3.5rem;
+  }
+  
+  .main-subtext{
+    font-size: 2.2rem;
+    margin-top: -6rem;
   }
 
   .address{
-    margin-top: 0.5rem;
+    margin-top: -0.5rem;
   }
-
-  .img-modelo{
-    height: 50vh;
-    margin-top: -5rem;
-  }
-
-  .text-main{
-    margin-top: -12rem;
-    margin-left: 0;
-  }
-  
-  .main-text{
-    font-size: 3rem;
-    color: white;
-    font-family: 'Kaushan Script';
-  }
-  
-  .main-subtext{
-    font-size: 1.2rem;
-    color: white;
-    margin-top: -1rem;
-    font-weight: bold;
-  }
-
-.menu:hover{
-transform: scale(1) ;
--webkit-transform: scale(1) ;
--moz-transform: scale(1) ;
 }
 
-
-}
-
-/*------------------------------------------------------PANTALLAS 992----------------------------------*/
-@media (max-width: 992px) {
-  .serv-text{
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
-  }
-
-  .servicios{
-    margin-top: -8rem;
-  }
-
-
-  .main{
-    padding: 5rem;
-  }
-
-  .main-text{
-    font-size: 2.5rem;
-  }
-
-  .main-subtext{
-    font-size: 1.2rem;
-  }
+  /*-----PANTALLAS HASTA 992----------------------------------*/
+  @media (min-width: 769px) and (max-width: 992px){
+    .img-modelo{
+      height: 50vh;
+    }
   
-  .logo{
-    width: 8rem;
-  }
-
-  .address{
-    margin-top: 0.5rem;
-  }
-
-  .img-modelo{
-    height: 50vh;
-    margin-top: -5rem;
-  }
-
-  .text-main{
-    margin-top: -12rem;
-    margin-left: 0;
-  }
+    .modelo{
+      margin-top: 1rem;
+      /* background-color: aqua; */
+      align-items: flex-end;
+      justify-content: right;
+    }
   
-  .main-text{
-    font-size: 3rem;
-    color: white;
-    font-family: 'Kaushan Script';
-  }
+    .text-cont{
+      /* background-color: #833AB4; */
+      text-align: left;
+      justify-content: left;
+      margin-top: 8rem;
+    }
+    
+    .main-text{
+      font-size: 3.5rem;
+    }
+    
+    .main-subtext{
+      font-size: 1.58rem;
+      margin-top: -7rem;
+    }
   
-  .main-subtext{
-    font-size: 1.2rem;
-    color: white;
-    margin-top: -1rem;
-    font-weight: bold;
+    .address{
+      margin-top: 7rem;
+    }
   }
 
-.menu:hover{
-transform: scale(1) ;
--webkit-transform: scale(1) ;
--moz-transform: scale(1) ;
-}
+    /*-----PANTALLAS HASTA 1200----------------------------------*/
+    @media (min-width: 993px) and (max-width: 1200px){
+      .img-modelo{
+        height: 50vh;
+      }
+    
+      .modelo{
+        margin-top: 1rem;
+        /* background-color: aqua; */
+        align-items: flex-end;
+        justify-content: right;
+      }
+    
+      .text-cont{
+        /* background-color: #833AB4; */
+        text-align: left;
+        justify-content: left;
+        margin-top: 8rem;
+      }
+      
+      .main-text{
+        font-size: 4.5rem;
+      }
+      
+      .main-subtext{
+        font-size: 2rem;
+        margin-top: -7rem;
+      }
+    
+      .address{
+        margin-top: 7rem;
+      }
+    }
+
+        /*-----PANTALLAS HASTA 1200----------------------------------*/
+        @media (min-width: 1201px){
+          .img-modelo{
+            height: 70vh;
+          }
+        
+          .modelo{
+            margin-top: 1rem;
+            align-items: flex-end;
+            justify-content: right;
+          }
+        
+          .text-cont{
+            text-align: left;
+            justify-content: left;
+            margin-top: 8rem;
+          }
+          
+          .main-text{
+            font-size: 6rem;
+            margin-top: 5rem;
+          }
+          
+          .main-subtext{
+            font-size: 2.7rem;
+            margin-top: -11rem;
+          }
+        
+          .address{
+            margin-top: 7rem;
+          }
+        }
 
 
-}
-
-/*------------------------------------------------------PANTALLAS 1200----------------------------------*/
-@media (max-width: 1200px) {
-  .serv-text{
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
-  }
-
-  .servicios{
-    margin-top: -8rem;
-  }
-
-
-  .main{
-    padding: 5rem;
-  }
-
-  .main-text{
-    font-size: 2.5rem;
-  }
-
-  .main-subtext{
-    font-size: 1.2rem;
-  }
-  
-  .logo{
-    width: 8rem;
-  }
-
-  .address{
-    margin-top: 0.5rem;
-  }
-
-  .img-modelo{
-    height: 50vh;
-    margin-top: -5rem;
-  }
-
-  .text-main{
-    margin-top: -12rem;
-    margin-left: 0;
-  }
-  
-  .main-text{
-    font-size: 3rem;
-    color: white;
-    font-family: 'Kaushan Script';
-  }
-  
-  .main-subtext{
-    font-size: 1.2rem;
-    color: white;
-    margin-top: -1rem;
-    font-weight: bold;
-  }
-
-.menu:hover{
-transform: scale(1) ;
--webkit-transform: scale(1) ;
--moz-transform: scale(1) ;
-}
-
-
-}
-
-/*------------------------------------------------------PANTALLAS 1400----------------------------------*/
-@media (max-width: 1400px) {
-  .serv-text{
-    font-size: 2rem;
-    letter-spacing: 0.5rem;
-  }
-
-  .servicios{
-    margin-top: -8rem;
-  }
-
-
-  .main{
-    padding: 5rem;
-  }
-
-  .main-text{
-    font-size: 2.5rem;
-  }
-
-  .main-subtext{
-    font-size: 1.2rem;
-  }
-  
-  .logo{
-    width: 8rem;
-  }
-
-  .address{
-    margin-top: 0.5rem;
-  }
-
-  .img-modelo{
-    height: 50vh;
-    margin-top: -5rem;
-  }
-
-  .text-main{
-    margin-top: -12rem;
-    margin-left: 0;
-  }
-  
-  .main-text{
-    font-size: 3rem;
-    color: white;
-    font-family: 'Kaushan Script';
-  }
-  
-  .main-subtext{
-    font-size: 1.2rem;
-    color: white;
-    margin-top: -1rem;
-    font-weight: bold;
-  }
-
-.menu:hover{
-transform: scale(1) ;
--webkit-transform: scale(1) ;
--moz-transform: scale(1) ;
-}
-
-
-}
 
 
 
