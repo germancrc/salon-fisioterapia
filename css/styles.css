@@ -329,6 +329,10 @@ background-color: #08090a;
     margin-top: -9rem;
   }
 
+  a:hover{
+    pointer-events: none;
+  }
+
 
 }
 
