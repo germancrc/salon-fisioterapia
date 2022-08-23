@@ -305,7 +305,7 @@ background-color: #08090a;
   }
 
   .main-text{
-    margin-top: 6rem;
+    margin-top: 4rem;
     font-size: 4rem;
     color: white;
   }
@@ -322,8 +322,7 @@ background-color: #08090a;
 
   .boton-info{
     margin-top: 0.5rem;
-    height: 3rem;
-    border-color: white;
+    width: 12rem;
   }
 
   .logo-local{
