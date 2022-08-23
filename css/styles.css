@@ -3,6 +3,38 @@ body{
     background-color: #08090a;
 }
 
+#loader {
+  border: 12px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 12px solid #444444;
+  width: 70px;
+  height: 70px;
+  animation: spin 1s linear infinite;
+}
+
+.loadingLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11rem;
+  width: 20rem;
+}
+
+@keyframes spin {
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.center{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 body,html{
     height: 100%;
 }
@@ -65,16 +97,11 @@ nav.abajo{
 /*-----------------------------------MAIN IMAGE*/
 .principal{
   background: rgb(68,46,38);
-  background: linear-gradient(180deg, rgba(68,46,38,1) 60%, rgba(8,9,10,1) 100%);
+  background: linear-gradient(180deg, rgba(68,46,38,1) 70%, rgba(8,9,10,1) 100%);
 }
 .main{
   height: 90vh;
 }
-
-.conta-cont{
-  margin-top: -5rem;
-}
-
 
 .modelo{
   margin-top: 2rem;
@@ -82,6 +109,8 @@ nav.abajo{
   display: flex;
   align-items: flex-end;
   justify-content: right;
+  -webkit-mask-image: linear-gradient(to top, transparent 2%, black 30%);
+  mask-image: linear-gradient(to top, transparent 2%, black 30%);
 }
 
 .img-modelo{
@@ -90,10 +119,10 @@ nav.abajo{
 
 .text-cont{
   margin-top: 8rem;
-  /* background-color: #833AB4; */
   display: flex;
-  text-align: left;
-  justify-content: right;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 2px 2px #08090a;
 }
 
 .main-text{
@@ -104,25 +133,26 @@ nav.abajo{
 .main-subtext{
   font-size: 2.7rem;
   color: white;
-  margin-top: -8.5rem;
+  margin-top: -7rem;
 }
 
 .boton-info{
-  margin-top: -28rem;
+  margin-top: -14.5rem;
   height: 3rem;
+  width: 10rem;
   border-color: white;
 }
 
 .inform{
-  margin-top: -10rem;
+  margin-top: -6rem;
 }
 
 
 /*-----------------------------------SERVICIOS*/
 .card{
   margin: 0 1.5rem 1.5rem 1.5rem;
-  box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
-/* -webkit-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
+  /* box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
+-webkit-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
 -moz-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
 border-radius: 10px; */
 }
@@ -213,7 +243,9 @@ background-color: #08090a;
   }
 
   /* ---------------------FOOTER / SOCIAL------------------------------ */
-
+  .conta-cont{
+    margin-top: -5rem;
+  }
 
   .social{
     margin-bottom: 1rem;
@@ -240,5 +272,77 @@ background-color: #08090a;
 -webkit-transform: scale(1.1) ;
 -moz-transform: scale(1.1) ;
 }
+
+/* -------------------------------BREACKPOINTS------------------------------------------ */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .loadingLogo{
+    margin-top: 14rem;
+  }
+
+  .logo{
+    width: 8rem;
+  }
+
+  .modelo{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-modelo{
+    height: 60vh;
+    
+  }
+
+  .main{
+    height: 70vh;
+  }
+
+  .text-cont{
+    z-index: 100;
+    margin-top: -16rem;
+  }
+
+  .main-text{
+    margin-top: 6rem;
+    font-size: 4rem;
+    color: white;
+  }
+
+  .main-subtext{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: -2rem;
+  }
+
+  .inform{
+    display: none;
+  }
+
+  .boton-info{
+    margin-top: 0.5rem;
+    height: 3rem;
+    border-color: white;
+  }
+
+  .logo-local{
+    margin-top: -9rem;
+  }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
 
 
