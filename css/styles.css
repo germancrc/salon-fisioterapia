@@ -151,7 +151,8 @@ nav.abajo{
 
 /*-----------------------------------SERVICIOS*/
 .card{
-  margin: 0 2rem 2rem 2rem;
+  margin: 0 0 2rem 0;
+  max-width: 400px;
   /* box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
 -webkit-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
 -moz-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
@@ -160,10 +161,11 @@ border-radius: 10px; */
 
 .card-title{
   font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .card img{
-  height: 13rem;
+  max-height: 16rem;
 }
 
 li{
@@ -187,6 +189,10 @@ background-color: #08090a;
 
   .fw-normal{
     color: white;
+  }
+
+  .accordion-button{
+    background-color: #F2C4B3 ;
   }
 
 
@@ -325,15 +331,58 @@ background-color: #08090a;
     border-color: white;
   }
 
-
-  
-
-
   .address{
     margin-top: -7rem;
   }
+
+
   
 
-
-
 }
+
+@media (min-width: 1367px) {
+  .img-modelo{
+    height: 88vh;
+  }
+  
+  .text-cont{
+    margin-top: 15rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 2px 2px #08090a;
+    z-index: 100;
+  }
+  
+  .main-text{
+    font-size: 7rem;
+    color: white;
+  }
+  
+  .main-subtext{
+    font-size: 3rem;
+    color: white;
+    margin-top: -11rem;
+  }
+  
+  .inform{
+    display: none;
+  }
+
+  .boton-info{
+    margin-top: -25rem;
+    height: 3rem;
+    width: 12rem;
+    border-color: white;
+  }
+
+  .address{
+    margin-top: -1rem;
+  }
+
+
+  
+}
+
+
+
