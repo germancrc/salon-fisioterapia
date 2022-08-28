@@ -271,6 +271,10 @@ margin-top: 8rem;
 /* -------------------------------BREACKPOINTS------------------------------------------ */
 
 @media (max-width: 575.98px) {
+  .loadingLogo{
+    margin-top: 18rem;
+  }
+
   .logo{
     width: 7rem;
   }
@@ -335,6 +339,10 @@ margin-top: 8rem;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
+  .loadingLogo{
+    margin-top: 18rem;
+  }
+
   .main{
     height: 50vh;
   }
@@ -391,6 +399,10 @@ margin-top: 8rem;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px){
+  .loadingLogo{
+    margin-top: 18rem;
+  }
+
   .main{
     height: 50vh;
   }
@@ -442,6 +454,10 @@ margin-top: 8rem;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
+  .loadingLogo{
+    margin-top: 18rem;
+  }
+
   .main{
     height: 50vh;
   }
@@ -493,6 +509,10 @@ margin-top: 8rem;
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px){
+  .loadingLogo{
+    margin-top: 18rem;
+  }
+  
   .img-modelo{
     height: 88vh;
   }
@@ -541,6 +561,9 @@ margin-top: 8rem;
 }
 
 @media (min-width: 1400px){
+  .loadingLogo{
+    margin-top: 18rem;
+  }
   
   .text-cont{
     margin-top: 12rem;
