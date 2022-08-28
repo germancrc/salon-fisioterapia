@@ -99,10 +99,6 @@ nav.abajo{
 
 .modelo{
   margin-top: 2rem;
-  /* background-color: aqua; */
-  display: flex;
-  align-items: flex-end;
-  justify-content: right;
   -webkit-mask-image: linear-gradient(to top, transparent 2%, black 30%);
   mask-image: linear-gradient(to top, transparent 2%, black 30%);
 }
@@ -284,7 +280,7 @@ margin-top: 8rem;
   }
   
   .modelo{
-    margin-top: 3rem;
+    margin-top: 2rem;
     /* background-color: aqua; */
     display: flex;
     align-items: center;
@@ -294,7 +290,7 @@ margin-top: 8rem;
   }
   
   .img-modelo{
-    height: 65vh;
+    height: 70vh;
   }
   
   .text-cont{
