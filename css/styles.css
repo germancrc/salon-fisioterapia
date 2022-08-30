@@ -3,24 +3,6 @@ body{
     background-color: #08090a;
 }
 
-#loader {
-  border: 12px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 12px solid #444444;
-  width: 70px;
-  height: 70px;
-  animation: spin 1s linear infinite;
-}
-
-.loadingLogo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10rem;
-  width: 20rem;
-  z-index: 100;
-}
-
 @keyframes spin {
   100% {
       transform: rotate(360deg);
@@ -285,10 +267,6 @@ margin-top: 8rem;
 /* -------------------------------BREACKPOINTS------------------------------------------ */
 
 @media (max-width: 575.98px) {
-  .loadingLogo{
-    margin-top: 18rem;
-  }
-
   .logo{
     width: 7rem;
   }
@@ -359,10 +337,6 @@ margin-top: 8rem;
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
-  .loadingLogo{
-    margin-top: 18rem;
-  }
-
   .main{
     height: 50vh;
   }
@@ -425,9 +399,6 @@ margin-top: 8rem;
 }
 
 @media (min-width: 768px) and (max-width: 991.98px){
-  .loadingLogo{
-    margin-top: 18rem;
-  }
 
   .main{
     height: 50vh;
@@ -486,9 +457,6 @@ margin-top: 8rem;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px){
-  .loadingLogo{
-    margin-top: 18rem;
-  }
 
   .main{
     height: 50vh;
@@ -547,9 +515,6 @@ margin-top: 8rem;
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px){
-  .loadingLogo{
-    margin-top: 18rem;
-  }
   
   .img-modelo{
     height: 88vh;
@@ -599,9 +564,6 @@ margin-top: 8rem;
 }
 
 @media (min-width: 1400px){
-  .loadingLogo{
-    margin-top: 18rem;
-  }
   
   .text-cont{
     margin-top: 12rem;
