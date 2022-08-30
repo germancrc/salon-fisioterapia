@@ -350,6 +350,12 @@ margin-top: 8rem;
     margin-top: -7rem;
   }
 
+  .fa-instagram:hover, .fa-whatsapp:hover, .fa-facebook:hover{
+    transform: scale(1) ;
+-webkit-transform: scale(1) ;
+-moz-transform: scale(1) ;
+}
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -409,6 +415,12 @@ margin-top: 8rem;
     margin-top: -7rem;
   }
 
+  .fa-instagram:hover, .fa-whatsapp:hover, .fa-facebook:hover{
+    transform: scale(1) ;
+-webkit-transform: scale(1) ;
+-moz-transform: scale(1) ;
+}
+
 
 }
 
@@ -464,6 +476,12 @@ margin-top: 8rem;
     margin-top: -1rem;
   }
 
+  .fa-instagram:hover, .fa-whatsapp:hover, .fa-facebook:hover{
+    transform: scale(1) ;
+-webkit-transform: scale(1) ;
+-moz-transform: scale(1) ;
+}
+
 
 }
 
@@ -518,6 +536,12 @@ margin-top: 8rem;
   .address{
     margin-top: -1rem;
   }
+
+  .fa-instagram:hover, .fa-whatsapp:hover, .fa-facebook:hover{
+    transform: scale(1) ;
+-webkit-transform: scale(1) ;
+-moz-transform: scale(1) ;
+}
 
 
 }
