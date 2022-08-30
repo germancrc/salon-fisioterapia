@@ -88,6 +88,20 @@ nav.abajo{
   transition: 0.5s ease-in-out;
 }
 
+/* MOSTRAR CONTENIDO */
+
+.reveal{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /*-----------------------------------MAIN IMAGE*/
 .principal{
   background: rgb(68,46,38);
@@ -534,15 +548,15 @@ margin-top: 8rem;
   .main-subtext{
     font-size: 2.6rem;
     color: white;
-    margin-top: -8rem;
+    margin-top: -6rem;
   }
   
   .inform{
-    margin-top: -8rem;
+    margin-top: -5rem;
   }
 
   .boton-info{
-    margin-top: -20rem;
+    margin-top: -12rem;
     height: 3rem;
     width: 12rem;
     border-color: white;
