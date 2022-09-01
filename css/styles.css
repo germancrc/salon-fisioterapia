@@ -138,14 +138,18 @@ nav.abajo{
 .card{
   margin: 0 0 2rem 0;
   max-width: 95vw;
+  overflow: hidden;
   /* box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
 -webkit-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
 -moz-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
 border-radius: 10px; */
 }
 
-.card-img-top{
-  object-fit: cover;
+.card-img-top:hover{
+  transform: scale(1.1) ;
+  -webkit-transform: scale(1.1) ;
+  -moz-transform: scale(1.1)  ;
+  transition: all 0.4s ease;
 }
 
 .card-title{
@@ -170,6 +174,12 @@ margin-top: 8rem;
 .servicios2{
   text-align: center;
 background-color: #08090a;
+}
+
+
+.boton-info2{
+  width: 10rem;
+  border-color: white;
 }
 
 .serv-text{
@@ -304,6 +314,10 @@ background-color: #08090a;
     margin-top: 22rem;
   }
 
+  .card-img-top:hover{
+    pointer-events: none;
+  }
+
   .address{
     margin-top: -7rem;
   }
@@ -359,6 +373,10 @@ background-color: #08090a;
     margin-top: 8rem;
   }
 
+  .card-img-top:hover{
+    pointer-events: none;
+  }
+
   .address{
     margin-top: -7rem;
   }
@@ -411,6 +429,10 @@ background-color: #08090a;
     margin-top: 2rem;
   }
 
+  .card-img-top:hover{
+    pointer-events: none;
+  }
+
   .address{
     margin-top: -1rem;
   }
@@ -460,6 +482,10 @@ background-color: #08090a;
 
   .servicios{
     margin-top: 6rem;
+  }
+
+  .card-img-top:hover{
+    pointer-events: none;
   }
 
   .address{
