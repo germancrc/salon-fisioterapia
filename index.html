@@ -103,12 +103,12 @@
 
   <section class="servicios" id="servic">
       <div class="container serv-cont">
-          <h2 class="fw-bold serv-text">Servicios</h2>
+          <h2 class="fw-bold serv-text" id="servTextCont">Servicios</h2>
 
           <div class="row">
             <!-- ALISADO -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio1">
                <img src="/img/alisado.png" class="card-img-top" alt="...">
                  <div class="card-body">
                    <p class="card-title">Alisado</p>
@@ -144,7 +144,7 @@
 
             <!-- DECOLORACION -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio2">
                 <img src="/img/decoloracion.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-title">Decoloración</p>
@@ -180,7 +180,7 @@
 
             <!-- DEPILACION -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio3">
                 <img src="/img/depilacion.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-title">Depilación</p>
@@ -246,7 +246,7 @@
             
             <!-- PESTANAS -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio4">
                 <img src="/img/extpestana.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <p class="card-title">Extensión de Pestañas</p>
@@ -294,7 +294,7 @@
             
             <!-- LAVADO -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio5">
                <img src="/img/lavado.png" class="card-img-top" alt="...">
                  <div class="card-body">
                   <p class="card-title">Lavado</p>
@@ -336,7 +336,7 @@
             
             <!-- MANICURA -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio6">
                <img src="/img/manicura.png" class="card-img-top" alt="...">
                  <div class="card-body">
                   <p class="card-title">Manicura</p>
@@ -378,7 +378,7 @@
             
             <!-- PEDICURA -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio7">
                <img src="/img/pedicura.png" class="card-img-top" alt="...">
                  <div class="card-body">
                   <p class="card-title">Pedicura</p>
@@ -420,7 +420,7 @@
             
             <!-- PLANCHADO -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio8">
                <img src="/img/plachado.png" class="card-img-top" alt="...">
                  <div class="card-body">
                   <p class="card-title">Planchado</p>
@@ -456,7 +456,7 @@
             
             <!-- TINTES -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio9">
                <img src="/img/tintes.png" class="card-img-top" alt="...">
                  <div class="card-body">
                   <p class="card-title">Tintes</p>
@@ -492,7 +492,7 @@
             
             <!-- TINTE CEJAS -->
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card">
+              <div class="card" id="servicio10">
                <img src="/img/tintado-de-cejas.png" class="card-img-top" alt="...">
                  <div class="card-body">
                   <p class="card-title">Tintado de Cejas</p>
@@ -531,15 +531,18 @@
          </div>
         </section>
 
-  <section class="servicios2" id="servic2">
+  <section class="servicios2">
     <div class="container">
-      <hr class="text-light">
+      <div class="servic2" id="servic2">
+        <hr class="text-light">
         <h2 class="fw-bold serv-text">Otros Servicios</h2>
         <h3 class="text-light mb-5">A domicilio con cita previa</h3>
+      </div>
+
         <div class="row">
           <!-- FISIOTERAPIA -->
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
+            <div class="card" id="servicio11">
               <img src="/img/fisio.png" class="card-img-top" alt="...">
                 <div class="card-body">
                 <p class="card-title">Fisioterapia</p>
@@ -551,7 +554,7 @@
           
           <!-- MASAJES -->
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
+            <div class="card" id="servicio12">
               <img src="/img/masaje.png" class="card-img-top" alt="...">
                 <div class="card-body">
                 <p class="card-title">Masajes</p>
@@ -566,8 +569,11 @@
 
   <section class="ubicar">
     <div class="container location">
-      <hr class="text-light">
+      <div id="ubica">
+        <hr class="text-light">
         <h2 class="fw-bold serv-text text-center">ubicación</h2>
+      </div>
+
     <div class="row row-cols-1 row-cols-md-2 pb-5 address">
       <div class="col d-flex justify-content-center">
         <div>
@@ -587,9 +593,10 @@
   <!-- <hr class="separador-serv"> -->
 
   <section class="contacto" id="contac">
-    <div class="container conta-cont">
+    <div class="container conta-cont" id="comunicar">
+        <hr class="text-light">
+        <h2 class="fw-bold serv-text">contacto</h2>
 
-      <h2 class="fw-bold serv-text">contacto</h2>
       <!-- <hr class="text-light"> -->
       <h5>Envia tus preguntas o comentarios:</h5>
     </div>
@@ -614,7 +621,6 @@
         </a></li> -->
       </ul>
 
-      <hr class="text-light">
     </div>
 
 

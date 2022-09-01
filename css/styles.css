@@ -135,14 +135,82 @@ nav.abajo{
 
 
 /*-----------------------------------SERVICIOS*/
+#servTextCont{
+  opacity: 0;
+  transform: translate(-150px,0px);
+  -webkit-transform: translate(-150px,0px);
+  -moz-transform: translate(-150px,0px);
+  transition: all 0.7s ease-in-out;
+}
+
 .card{
+  opacity: 0;
   margin: 0 0 2rem 0;
   max-width: 95vw;
   overflow: hidden;
-  /* box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
--webkit-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
--moz-box-shadow: 10px 10px 5px -5px rgba(68,46,38,1);
-border-radius: 10px; */
+  transform: translate(1px,50px);
+  -webkit-transform: translate(1px,50px);
+  -moz-transform: translate(1px,50px);
+  transition: all 0.7s ease-in-out;
+}
+
+#servic2{
+  opacity: 0;
+  transform: translate(-150px,0px);
+  -webkit-transform: translate(-150px,0px);
+  -moz-transform: translate(-150px,0px);
+  transition: all 0.7s ease-in-out;
+}
+
+#ubica{
+  opacity: 0;
+  transform: translate(-150px,0px);
+  -webkit-transform: translate(-150px,0px);
+  -moz-transform: translate(-150px,0px);
+  transition: all 0.7s ease-in-out;
+}
+
+#comunicar{
+  opacity: 0;
+  transform: translate(-150px,0px);
+  -webkit-transform: translate(-150px,0px);
+  -moz-transform: translate(-150px,0px);
+  transition: all 0.7s ease-in-out;
+}
+
+.card.visible{
+  opacity: 1;
+  transform: translate(1px,1px);
+  -webkit-transform: translate(1px,1px);
+  -moz-transform: translate(1px,1px);
+}
+
+#servTextCont.visible{
+  opacity: 1;
+  transform: translate(1px,1px);
+  -webkit-transform: translate(1px,1px);
+  -moz-transform: translate(1px,1px);
+}
+
+#servic2.visible{
+  opacity: 1;
+  transform: translate(1px,1px);
+  -webkit-transform: translate(1px,1px);
+  -moz-transform: translate(1px,1px);
+}
+
+#ubica.visible{
+  opacity: 1;
+  transform: translate(1px,1px);
+  -webkit-transform: translate(1px,1px);
+  -moz-transform: translate(1px,1px);
+}
+
+#comunicar.visible{
+  opacity: 1;
+  transform: translate(1px,1px);
+  -webkit-transform: translate(1px,1px);
+  -moz-transform: translate(1px,1px);
 }
 
 .card-img-top:hover{
@@ -174,6 +242,7 @@ margin-top: 8rem;
 .servicios2{
   text-align: center;
 background-color: #08090a;
+
 }
 
 
@@ -308,11 +377,6 @@ background-color: #08090a;
     height: 3rem;
     width: 12rem;
     border-color: white;
-    pointer-events: none;
-  }
-
-  .boton-info2{
-    pointer-events: none;
   }
 
   .servicios{
@@ -372,11 +436,6 @@ background-color: #08090a;
     height: 3rem;
     width: 12rem;
     border-color: white;
-    pointer-events: none;
-  }
-
-  .boton-info2{
-    pointer-events: none;
   }
 
   .servicios{
@@ -433,13 +492,7 @@ background-color: #08090a;
     height: 3rem;
     width: 12rem;
     border-color: white;
-    pointer-events: none;
   }
-
-  .boton-info2{
-    pointer-events: none;
-  }
-
 
   .servicios{
     margin-top: 2rem;
@@ -494,13 +547,7 @@ background-color: #08090a;
     height: 3rem;
     width: 12rem;
     border-color: white;
-    pointer-events: none;
   }
-
-  .boton-info2{
-    pointer-events: none;
-  }
-
 
   .servicios{
     margin-top: 6rem;
