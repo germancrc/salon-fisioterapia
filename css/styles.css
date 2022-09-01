@@ -308,6 +308,11 @@ background-color: #08090a;
     height: 3rem;
     width: 12rem;
     border-color: white;
+    pointer-events: none;
+  }
+
+  .boton-info2{
+    pointer-events: none;
   }
 
   .servicios{
@@ -367,6 +372,11 @@ background-color: #08090a;
     height: 3rem;
     width: 12rem;
     border-color: white;
+    pointer-events: none;
+  }
+
+  .boton-info2{
+    pointer-events: none;
   }
 
   .servicios{
@@ -423,7 +433,13 @@ background-color: #08090a;
     height: 3rem;
     width: 12rem;
     border-color: white;
+    pointer-events: none;
   }
+
+  .boton-info2{
+    pointer-events: none;
+  }
+
 
   .servicios{
     margin-top: 2rem;
@@ -478,7 +494,13 @@ background-color: #08090a;
     height: 3rem;
     width: 12rem;
     border-color: white;
+    pointer-events: none;
   }
+
+  .boton-info2{
+    pointer-events: none;
+  }
+
 
   .servicios{
     margin-top: 6rem;
